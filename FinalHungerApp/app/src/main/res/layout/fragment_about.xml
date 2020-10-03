@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hungerappbhardwaj.HungerApp.fragment.AboutFragment"
+    android:background="@color/BackgroundColor">
+
+    <ImageView
+        android:id="@+id/imgPerson"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/ic_person"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developer - Sunny Bhardwaj"
+        android:background="@drawable/searchview_background"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:layout_below="@id/imgPerson"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email - monikersk@gmail.com"
+        android:textSize="20sp"
+        android:background="@drawable/searchview_background"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@id/name"
+        android:gravity="center"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_details"
+        android:textSize="20sp"
+        android:background="@drawable/text_boundary_background"
+        android:padding="5dp"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@id/mail"
+        android:layout_margin="10dp"/>
+
+</RelativeLayout>
